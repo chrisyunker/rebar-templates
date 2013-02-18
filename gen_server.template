@@ -1,0 +1,7 @@
+{variables, [
+    {name, "template"},
+    {author_name, "Chris Yunker"},
+    {author_email, "chris@yunker.io"}
+]}.
+{template, "gen_server.erl", "{{name}}.erl"}.
+
