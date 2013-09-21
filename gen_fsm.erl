@@ -31,7 +31,7 @@ handle_event(_Event, StateName, State) ->
 
 handle_sync_event(_Event, _From, StateName, State) ->
     Reply = ok,
-    {noreply, Reply, StateName, State}.
+    {reply, Reply, StateName, State}.
 
 terminate(_Reason, _StateName, _State) ->
     ok.
