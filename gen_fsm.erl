@@ -11,6 +11,8 @@
          code_change/4]).
 -export([start_link/1]).
 
+-record(state, {}).
+
 %% ===================================================================
 %% API
 %% ===================================================================
@@ -21,7 +23,7 @@ start_link(_Args) ->
 %% gen_fsm callbacks
 %% ===================================================================
 init([]) ->
-    {ok, state}.
+    {ok, #state{}}.
 
 handle_info(_Info, StateName, State) ->
     {next_state, StateName, State}.
@@ -38,4 +40,8 @@ terminate(_Reason, _StateName, _State) ->
 
 code_change(_OldVersion, StateName, State, _Extra) ->
     {ok, StateName, State}.
+
+%%%===================================================================
+%%% Private functions
+%%%===================================================================
 
