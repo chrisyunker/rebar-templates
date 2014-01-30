@@ -1,5 +1,4 @@
 {variables, [
-    {name, "template"}
     ]}.
 {template, "Makefile", "Makefile"}.
 

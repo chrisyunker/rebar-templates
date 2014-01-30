@@ -1,0 +1,4 @@
+{variables, [
+    ]}.
+{template, "rebar.config", "rebar.config"}.
+
