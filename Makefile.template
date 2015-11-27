@@ -1,4 +1,2 @@
-{variables, [
-    ]}.
+{variables, [{name, "myproject"}]}.
 {template, "Makefile", "Makefile"}.
-

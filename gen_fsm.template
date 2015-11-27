@@ -1,7 +1,4 @@
-{variables, [
-    {name, "template"},
-    {author_name, "Chris Yunker"},
-    {author_email, "chris@yunker.io"}
-]}.
+{variables, [{name, "myfsm"},
+             {author_name, "Chris Yunker"},
+             {author_email, "chrisyunker@gmail.com"}]}.
 {template, "gen_fsm.erl", "{{name}}.erl"}.
-
