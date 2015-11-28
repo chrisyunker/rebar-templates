@@ -1,0 +1,4 @@
+{variables, [{name, "mymodule"},
+             {author_name, "Chris Yunker"},
+             {author_email, "chrisyunker@gmail.com"}]}.
+{template, "module.erl", "{{name}}.erl"}.
