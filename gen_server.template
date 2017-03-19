@@ -1,4 +1,5 @@
-{variables, [{name, "myserver"},
-             {author_name, "Chris Yunker"},
-             {author_email, "chrisyunker@gmail.com"}]}.
+{description, "Erlang gen_server module"}.
+{variables, [
+  {name, "new_server"}
+]}.
 {template, "gen_server.erl", "{{name}}.erl"}.

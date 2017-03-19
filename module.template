@@ -1,4 +1,5 @@
-{variables, [{name, "mymodule"},
-             {author_name, "Chris Yunker"},
-             {author_email, "chrisyunker@gmail.com"}]}.
+{description, "Erlang module"}.
+{variables, [
+  {name, "new_module"}
+]}.
 {template, "module.erl", "{{name}}.erl"}.

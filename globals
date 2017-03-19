@@ -1,0 +1,4 @@
+{variables, [
+  {author_name, "Chris Yunker"},
+  {author_email, "chrisyunker@gmail.com"}
+]}.

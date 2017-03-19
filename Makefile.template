@@ -1,2 +1,2 @@
-{variables, [{name, "myproject"}]}.
+{description, "Erlang application Makefile"}.
 {template, "Makefile", "Makefile"}.

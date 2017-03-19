@@ -1,4 +1,5 @@
-{variables, [{name, "myfsm"},
-             {author_name, "Chris Yunker"},
-             {author_email, "chrisyunker@gmail.com"}]}.
+{description, "Erlang gen_fsm module"}.
+{variables, [
+  {name, "new_fsm"}
+]}.
 {template, "gen_fsm.erl", "{{name}}.erl"}.

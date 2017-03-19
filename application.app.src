@@ -1,8 +1,0 @@
-{application, {{name}},
- [{description, ""},
-  {vsn, "1"},
-  {registered, []},
-  {applications, [kernel,
-                  stdlib]},
-  {mod, { {{name}}_app, [] } },
-  {env, []}]}.

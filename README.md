@@ -1,5 +1,5 @@
-Rebar Templates
----------------
+Rebar3 Templates
+----------------
 
 Templates for Erlang projects
 
@@ -7,13 +7,5 @@ Install
 -------
 
 ```
-git clone git@github.com:chrisyunker/rebar-templates.git ~/.rebar/templates
+git clone git@github.com:chrisyunker/rebar-templates.git ~/.config/rebar3/templates
 ```
-
-Usage
------
-
-```
-rebar create template=[template] name=[name]
-```
-

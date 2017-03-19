@@ -1,6 +1,0 @@
-{variables, [{name, "myapp"}]}.
-{template, "application.app.src", "src/{{name}}.app.src"}.
-{template, "application_app.erl", "src/{{name}}_app.erl"}.
-{template, "application_sup.erl", "src/{{name}}_sup.erl"}.
-{template, "rebar.config", "rebar.config"}.
-{template, "Makefile", "Makefile"}.
