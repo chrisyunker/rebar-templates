@@ -8,11 +8,11 @@ clean:
 
 compile:
 	@echo "Rebar compile..."
-	@$(REBAR3) as compile compile
+	@$(REBAR3) compile
 
 dialyzer:
 	@echo "Rebar dialyzer..."
-	@$(REBAR3) as compile compile
+	@$(REBAR3) dialyzer
 
 eunit:
 	@echo "Rebar eunit..."
@@ -24,5 +24,5 @@ xref:
 
 test: xref eunit dialyzer
 
-.PHONY: clean compile dialyzer test
+.PHONY: clean compile dialyzer eunit xref
 
