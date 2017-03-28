@@ -1,2 +1,2 @@
 {description, "Erlang application Makefile"}.
-{template, "Makefile", "Makefile"}.
+{template, "Makefile.erl", "Makefile"}.
