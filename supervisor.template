@@ -1,0 +1,5 @@
+{description, "Erlang supervisor"}.
+{variables, [
+  {name, "new_sup"}
+]}.
+{template, "supervisor.erl", "{{name}}.erl"}.
